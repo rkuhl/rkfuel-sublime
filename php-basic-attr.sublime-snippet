@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
 public function setBasicAttrTable() {
-  $this->attributes = array(
+  \$this->attributes = array(
     new StringAttr("title", "Tytuł"),
   );
-  $this->setCustomAttrTable();
+  \$this->setCustomAttrTable();
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
