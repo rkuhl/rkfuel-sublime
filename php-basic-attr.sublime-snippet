@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+public function setBasicAttrTable() {
+  $this->attributes = array(
+    new StringAttr("title", "Tytuł"),
+  );
+  $this->setCustomAttrTable();
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>tukibasicattr</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>
