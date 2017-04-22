@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+import { trace } from "./../shared/helpers.js"
+
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} {
+  /**
+  * @constructor
+  **/
+  constructor() {
+  }
+}
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}
+
+]]></content>
+    <tabTrigger>jsclass</tabTrigger>
+    <scope>source.js -(meta)</scope>
+    <description>JS / ES6 class</description>
+</snippet>
