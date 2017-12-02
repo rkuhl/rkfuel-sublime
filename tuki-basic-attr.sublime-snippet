@@ -2,7 +2,7 @@
   <content><![CDATA[
 public function setBasicAttrTable() {
   \$this->attributes = array(
-    new StringAttr("title", "Tytuł"),
+    new StringAttr("title", "Tytuł", array("inlineLabel" => true)),
   );
   \$this->setCustomAttrTable();
 }
