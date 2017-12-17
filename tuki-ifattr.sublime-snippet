@@ -2,7 +2,7 @@
   <content><![CDATA[
 <?php if (${1:\$item}->getAttr('${2:content}')) { ?>
   <div class="${2:content}-attr">
-    <?= Strings::sieroty(${1:\$item}->getAttr(${2:content})) ?>
+    <?= Strings::sieroty(${1:\$item}->getAttr('${2:content}')) ?>
   </div>
 <?php } ?>
 ]]></content>
