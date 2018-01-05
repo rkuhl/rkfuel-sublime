@@ -2,10 +2,10 @@
 	<content><![CDATA[
 class ${1:Name} extends Item {
 	function setBasicAttrTable() {
-		$this->attributes = array(
+		\$this->attributes = array(
 			new StringAttr("title", "Tytuł", array("inlineLabel" => true)),
 		);
-		$this->setCustomAttrTable();
+		\$this->setCustomAttrTable();
 	}
 }
 ]]></content>
