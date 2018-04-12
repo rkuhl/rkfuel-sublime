@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-class ${1:Name} extends Item {
+class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:Name}} extends Item {
 	function setCustomAttrTable() {
 		\$this->attributes = array_merge(\$this->attributes, array(
 			${2}

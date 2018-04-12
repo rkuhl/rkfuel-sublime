@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-class ${1:Name} extends Item {
+class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:Name}} extends Item {
 	function setBasicAttrTable() {
 		\$this->attributes = array(
 			new StringAttr("title", "Tytuł", array("inlineLabel" => true)),
