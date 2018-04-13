@@ -1,12 +1,28 @@
 <snippet>
 	<content><![CDATA[
 class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:Name}} extends Item {
+  /**
+  * ########################
+  * ### Public overrides ###
+  **/
 	function setBasicAttrTable() {
 		\$this->attributes = array(
 			new StringAttr("title", "Tytuł", array("inlineLabel" => true)),
 		);
 		\$this->setCustomAttrTable();
 	}
+
+  /**
+  * #############################
+  * ### Custom public methods ###
+  **/
+
+
+  /**
+  * ##############################
+  * ### Custom private methods ###
+  **/
+
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
