@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<?php echo Strings::sieroty(\$item->${1:info}) ?>
+<?= Strings::sieroty(\$item->${1:getInfo()}) ?>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>sieroty</tabTrigger>
